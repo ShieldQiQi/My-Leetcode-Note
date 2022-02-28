@@ -60,7 +60,7 @@ int main()
     for(int j=0;j<1;j++)
     {
         int nums2[3] = {3, -4, 1};
-        int * result2 = twoSum_2(nums2, 3, -1, &returnSize);
+        int * result2 = twoSum_2(nums2, 3, 4, &returnSize);
         printf("%d, %d, returned size is %d\n", result2[0], result2[1], returnSize);
     }
     return 0;
