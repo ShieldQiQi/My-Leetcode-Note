@@ -9,6 +9,7 @@
 				"-g",
 				"${file}",
 				"${fileDirname}\\hash.c",
+				"${fileDirname}\\quick_sort.c",
 				"-o",
 				"${fileDirname}\\${fileBasenameNoExtension}.exe"
 			],
