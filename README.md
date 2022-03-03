@@ -42,3 +42,5 @@
 
 #### 题13_39 【组合之和】
 ```树DFS回溯```
+![image](https://github.com/ShieldQiQi/My-Leetcode-Note/blob/main/image/13_39_1.png)
+![image](https://github.com/ShieldQiQi/My-Leetcode-Note/blob/main/image/13_39_2.png)
