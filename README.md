@@ -44,3 +44,6 @@
 ```树DFS回溯```
 ![image](https://github.com/ShieldQiQi/My-Leetcode-Note/blob/main/image/13_39_1.png)
 ![image](https://github.com/ShieldQiQi/My-Leetcode-Note/blob/main/image/13_39_2.png)
+
+#### 题14_46 【全排列】
+```树回溯``` 使用循环队列或者数组元素交换确定下一个可选取元素
