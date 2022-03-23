@@ -15,6 +15,9 @@ struct dataItem {
 
 inline int hashCode(int key, int size) {return abs(key) % size;};
 
+// travel
+void hash_sc_travel(int (*nums)[2], struct dataItem** hashArray, int size);
+
 // search operation
 struct dataItem* hash_sc_searchNode(int key, struct dataItem** hashArray, int size);
 

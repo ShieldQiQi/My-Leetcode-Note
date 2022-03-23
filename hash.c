@@ -26,6 +26,23 @@ struct dataItem* hash_sc_searchNode(int key, struct dataItem** hashArray, int si
     return NULL;
 }
 
+// travel Item operation
+void hash_sc_travel(int (*nums)[2], struct dataItem** hashArray, int size)
+{
+    int count = 0;
+    for(int i=0; i<size; i++)
+    {
+        struct dataItem* temp = hashArray[i];
+        while(temp != NULL)
+        {
+            nums[count][0] = temp->value;
+            nums[count][1] = temp->key;
+            count++;
+            temp = temp->next;
+        }
+    }
+}
+
 // insert Item operation
 int hash_sc_insertNode(int key, int value, struct dataItem** hashArray, int size)
 {
