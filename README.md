@@ -169,7 +169,7 @@
 #### 题53_142 【环形链表】
 ```快慢指针``` ```fast = fast->next->next; slow = slow->next``` until they meet each other, then ```slow = head, fast = fast->next, slow = slow->next``` until meet up at the start of the cycle;<br>
 Proof: <br>
-          A                      C<br>
+&ensp&ensp&ensp&ensp&ensp&enspA&ensp&ensp&ensp&ensp&ensp&ensC<br>
 head----------->cycle_start----------->C Node  (distance from cycle_start is C)<br>
                     |                    |<br>
                     |                    |<br>
