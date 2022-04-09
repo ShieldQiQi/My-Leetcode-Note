@@ -165,3 +165,19 @@
 
 #### 题52_114 【二叉树展开为链表】
 ```DFS递归```  左右子树置换 O(1)空间复杂度
+
+#### 题53_142 【环形链表】
+```快慢指针``` ```fast = fast->next->next; slow = slow->next``` until they meet each other, then ```slow = head, fast = fast->next, slow = slow->next``` until meet up at the start of the cycle;
+Proof: 
+          A                      C
+head----------->cycle_start----------->C Node  (distance from cycle_start is C)
+                    |                    |
+                    |                    |
+                    |<-----------------B Node  (distance from cycle_start is B)
+
+assume they mett up at B Node, C Node is where the fast pointer stand when slow pointer first come at cycle_start
+then we have:
+    ```C + 2 x B = B + n x Z``` where Z is the length of the cycle
+    casue C<Z and B<=Z then ```C + B = Z```
+    then ``` A + B = C + N x Z +B = (N+1) x Z```
+    which means from Node B, if go another A step, will finally arrive at cycle_start node
