@@ -168,4 +168,4 @@
 
 #### 题53_142 【环形链表】
 ```快慢指针``` ```fast = fast->next->next; slow = slow->next``` until they meet each other, then ```slow = head, fast = fast->next, slow = slow->next``` until meet up at the start of the cycle;
-![image](https://github.com/ShieldQiQi/My-Leetcode-Note/blob/main/image/53_142.png)
+![image](https://github.com/ShieldQiQi/My-Leetcode-Note/blob/main/image/53_142.PNG)
