@@ -168,13 +168,9 @@
 
 #### 题53_142 【环形链表】
 ```快慢指针``` ```fast = fast->next->next; slow = slow->next``` until they meet each other, then ```slow = head, fast = fast->next, slow = slow->next``` until meet up at the start of the cycle;<br>
-Proof: <br>
-&ensp&ensp&ensp&ensp&ensp&enspA&ensp&ensp&ensp&ensp&ensp&ensC<br>
-head----------->cycle_start----------->C Node  (distance from cycle_start is C)<br>
-                    |                    |<br>
-                    |                    |<br>
-                    |<-----------------B Node  (distance from cycle_start is B)<br>
-<br>
+
+![image](https://github.com/ShieldQiQi/My-Leetcode-Note/blob/main/image/53_142.PNG)
+
 assume they mett up at B Node, C Node is where the fast pointer stand when slow pointer first come at cycle_start<br>
 then we have:<br>
     ```C + 2 x B = B + n x Z``` where Z is the length of the cycle<br>
