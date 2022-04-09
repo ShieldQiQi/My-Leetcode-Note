@@ -167,5 +167,17 @@
 ```DFS递归```  左右子树置换 O(1)空间复杂度
 
 #### 题53_142 【环形链表】
-```快慢指针``` ```fast = fast->next->next; slow = slow->next``` until they meet each other, then ```slow = head, fast = fast->next, slow = slow->next``` until meet up at the start of the cycle;
-![image](https://github.com/ShieldQiQi/My-Leetcode-Note/blob/main/image/53_142.PNG)
+```快慢指针``` ```fast = fast->next->next; slow = slow->next``` until they meet each other, then ```slow = head, fast = fast->next, slow = slow->next``` until meet up at the start of the cycle;<br>
+Proof: <br>
+          A                      C<br>
+head----------->cycle_start----------->C Node  (distance from cycle_start is C)<br>
+                    |                    |<br>
+                    |                    |<br>
+                    |<-----------------B Node  (distance from cycle_start is B)<br>
+<br>
+assume they mett up at B Node, C Node is where the fast pointer stand when slow pointer first come at cycle_start<br>
+then we have:<br>
+    ```C + 2 x B = B + n x Z``` where Z is the length of the cycle<br>
+    casue C<Z and B<=Z then ```C + B = Z```<br>
+    then ``` A + B = C + N x Z +B = (N+1) x Z```<br>
+    which means from Node B, if go another A step, will finally arrive at cycle_start node<br>
