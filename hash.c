@@ -93,8 +93,10 @@ struct dataItem* hash_sc_deleteNode(struct dataItem* item, struct dataItem** has
         } else {
             hashArray[hashIndex] = temp->next;
         }
-    } else {
+    } else if(preTemp != temp) {
         preTemp->next = NULL;
+    } else {
+        hashArray[hashIndex] = NULL;
     }
     
     return temp;

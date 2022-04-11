@@ -177,3 +177,6 @@ then we have:<br>
     casue C<Z and B<=Z then ```C + B = Z```<br>
     then ``` A + B = C + N x Z +B = (N+1) x Z```<br>
     which means from Node B, if go another A step, will finally arrive at cycle_start node<br>
+
+#### 题54_146 【LRU缓存】
+```哈希表 && 双向链表``` 对于被查询的数值对移动到链表头部，必要时删除链表尾部节点
