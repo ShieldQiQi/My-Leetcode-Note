@@ -69,3 +69,36 @@ void quick_sort2(int** array, int low, int high, int index)
     quick_sort2(array, i, low-1, index);
     quick_sort2(array, low+1, j, index);
 }
+
+// void quick_sort(int *array, int low, int high)
+// {
+//     if(low > high)
+//         return;
+//     int key = array[low];
+//     int i = low;
+//     int j = high;
+//     while(low < high)
+//     {
+//         while(array[high] >= key && low < high)
+//         {
+//             high--;
+//         }
+//         if(array[high] < key)
+//         {
+//             array[low] = array[high];
+//             low++;
+//         }
+//         while(array[low] <= key && low < high)
+//         {
+//             low++;
+//         }
+//         if(array[low] > key)
+//         {
+//             array[high] = array[low];
+//             high--;
+//         }
+//     }
+//     array[low] = key;
+//     quick_sort(array, i, low-1);
+//     quick_sort(array, low+1, j);
+// }
