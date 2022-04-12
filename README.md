@@ -182,4 +182,6 @@ then we have:<br>
 ```哈希表 && 双向链表``` 对于被查询的数值对移动到链表头部，必要时删除链表尾部节点
 
 #### 题55_148 【排序链表】
-```归并排序``` 自顶向下O(1) 自底向上O(log n)
+```归并排序``` 自底向上O(log n) 自顶向下O(1)
+![image](https://github.com/ShieldQiQi/My-Leetcode-Note/blob/main/image/55_148_1.png)
+![image](https://github.com/ShieldQiQi/My-Leetcode-Note/blob/main/image/55_148_2.png)
