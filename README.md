@@ -185,3 +185,8 @@ then we have:<br>
 ```归并排序``` 自底向上O(log n) 自顶向下O(1)
 ![image](https://github.com/ShieldQiQi/My-Leetcode-Note/blob/main/image/55_148_1.png)
 ![image](https://github.com/ShieldQiQi/My-Leetcode-Note/blob/main/image/55_148_2.png)
+
+## 【字符串】-简单- ---easy---
+
+#### 题56_20 【有效的括号】
+```堆栈``` 匹配的括号消除，对于某些情况可直接结束遍历
