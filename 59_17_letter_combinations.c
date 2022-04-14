@@ -40,10 +40,10 @@ void dfs(char **ans, char *digits, int combineSize, int currentLayer, int *index
  */
 char ** letterCombinations(char * digits, int* returnSize)
 {
+    char **ans_;
     if(digits[0] == NULL) {
-        char *ans[0];
         *returnSize = 0;
-        return ans;
+        return ans_;
     }
     int combineSize = 0;
     *returnSize = 1;
