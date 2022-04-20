@@ -128,8 +128,8 @@ struct dataItem2** initHashTable2(int size)
 }
 int hashCode2(char *key, int size)
 {
-    int h = 0;
-    for(int i=0; key[i] != NULL; i++)
+    unsigned int h = 0;
+    for(int i=0; key[i]; i++)
         h = key[i] + 31*h;
     return h % size;
 }
