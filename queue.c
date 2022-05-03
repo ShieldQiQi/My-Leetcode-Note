@@ -36,7 +36,7 @@ int popQueue(struct Queue* queue)
         queue->head->next = queue->head->next->next;
         int value = temp->value;
         free(temp);
-        if(queue->size--)
+        if((queue->size-=1) == 0)
             queue->tail = queue->head;
         return value;
     }

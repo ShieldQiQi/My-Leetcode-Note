@@ -10,6 +10,9 @@
 				"${file}",
 				"${fileDirname}\\hash.c",
 				"${fileDirname}\\quick_sort.c",
+				"${fileDirname}\\linkedList.c",
+				"${fileDirname}\\queue.c",
+				"${fileDirname}\\stack.c",
 				"-o",
 				"${fileDirname}\\${fileBasenameNoExtension}.exe"
 			],

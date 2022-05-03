@@ -60,7 +60,10 @@
     "main.h": "c",
     "hashtable_separate_chaining.h": "c",
     "stdio.h": "c",
-    "hash.h": "c"
+    "hash.h": "c",
+    "quick_sort.h": "c",
+    "string.h": "c",
+    "linkedlist.h": "c"
   },
   "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.includeSearch": [
