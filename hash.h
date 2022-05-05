@@ -22,7 +22,7 @@ struct dataItem* hash_sc_searchNode(int key, struct dataItem** hashArray, int si
 // insert operation
 int hash_sc_insertNode(int key, int value, struct dataItem** hashArray, int size);
 // delete operation
-struct dataItem* hash_sc_deleteNode(struct dataItem* item, struct dataItem** hashArray, int size);
+struct dataItem* hash_sc_deleteNode(int key, struct dataItem** hashArray, int size);
 // travel
 void hash_sc_travel(int (*nums)[2], struct dataItem** hashArray, int size);
 

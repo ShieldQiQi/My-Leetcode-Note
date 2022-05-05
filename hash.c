@@ -63,14 +63,14 @@ int hash_sc_insertNode(int key, int value, struct dataItem** hashArray, int size
 }
 
 // delete Item operation
-struct dataItem* hash_sc_deleteNode(struct dataItem* item, struct dataItem** hashArray, int size)
+struct dataItem* hash_sc_deleteNode(int key, struct dataItem** hashArray, int size)
 {
-    int hashIndex = hashCode(item->key, size);
+    int hashIndex = hashCode(key, size);
     struct dataItem* temp = hashArray[hashIndex];
     struct dataItem* preTemp = temp;
     if(temp == NULL)
         return NULL;
-    while(temp->key != item->key)
+    while(temp->key != key)
     {
         if(temp->next != NULL){
             preTemp = temp;
