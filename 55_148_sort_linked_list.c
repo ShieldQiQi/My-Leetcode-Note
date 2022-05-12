@@ -48,7 +48,7 @@ struct ListNode* sortList(struct ListNode* head)
     return mergeTwoLists(frontHalf, behindHalf);
 }
 
-// 自顶向下 空间O(1)
+// 自底向上 空间O(1)
 struct ListNode* sortList2(struct ListNode* head) {
     if (head == NULL) {
         return head;
