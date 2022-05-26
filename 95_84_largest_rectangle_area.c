@@ -40,8 +40,8 @@ int largestRectangleArea(int* heights, int heightsSize)
 
 int main()
 {
-    int heights[6] = {2,1,5,6,2,3};
-    printf("%d", largestRectangleArea(heights, 6));
+    int heights[5] = {1,0,1,0,0};
+    printf("%d--", largestRectangleArea(heights, 5));
 
     return 0;
 }
