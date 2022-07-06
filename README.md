@@ -1,4 +1,4 @@
-edit from Linux Env
+edit from Windows
 # My-Leetcode-Note
 
 ## 【数组】-简单- ---easy---
