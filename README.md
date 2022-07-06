@@ -1,3 +1,4 @@
+edit on Windows
 # My-Leetcode-Note
 
 ## 【数组】-简单- ---easy---
