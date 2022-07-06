@@ -1,4 +1,4 @@
-edit from Windows
+edit from Linux Second
 # My-Leetcode-Note
 
 ## 【数组】-简单- ---easy---
