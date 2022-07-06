@@ -1,6 +1,6 @@
 edit from Windows third
 # My-Leetcode-Note
-none-hello
+none-hello-linux
 ## 【数组】-简单- ---easy---
 
 #### 题1_1 【两数之和】
