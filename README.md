@@ -1,3 +1,4 @@
+edit from Linux Env
 # My-Leetcode-Note
 
 ## 【数组】-简单- ---easy---
